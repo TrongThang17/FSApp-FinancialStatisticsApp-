@@ -1,0 +1,121 @@
+{
+    "common": {
+        "close": "ĐÓNG",
+        "search": "Tìm kiếm",
+        "reset": "Thiết lập lại",
+        "save_and_search": "Lưu & tìm kiếm",
+        "alert": "Thông báo",
+        "all": "Tất cả",
+        "status_label": {
+            "connect": "Kết nối",
+            "damaged": "Hư hỏng",
+            "disconnect": "Mất kết nối",
+            "failure": "Sự cố",
+            "normal": "Bình thường",
+            "success": "Thành công",
+            "in_process": "Trong quá trình",
+            "no_config": "Không cài đặt",
+            "lostConnectionDueToPower": "Mất kết nối do nguồn",
+            "lostConnectionDueToLcu": "Mất kết nối do LCU",
+            "unknownConnectionLost": "Mất kết nối không xác định",
+            "turn_off": "Tắt [cảm biến]",
+            "turn_on": "Bật [công tắc]"
+        },
+        "apply": "Áp dụng",
+        "on": "Bật",
+        "off": "Tắt",
+        "filter": "Bộ lọc tìm kiếm"
+    },
+    "group": {
+        "title": "Tuyến chiếu sáng"
+    },
+    "login": {
+        "login": "Đăng nhập",
+        "user": "Mã khách hàng",
+        "id": "ID",
+        "password": "Mật khẩu",
+        "submit_user": "Nhập mã khách hàng",
+        "submit_id": "Nhập ID",
+        "submit_password": "Nhập mật khẩu",
+        "save_password": "Lưu mật khẩu",
+        "forget_password": "Quên mật khẩu?",
+        "error_required": "Không được bỏ trống!",
+        "error_user": "Mã khách hàng là số có 6 chữ số!",
+        "error_invalid_login": "Tài khoản hoặc mật khẩu không đúng, quý khách vui kiểm tra lại!",
+        "biometric_error": "Quý khách chưa kích hoạt đăng nhập sinh trắc học. Vui lòng đăng nhập để kích hoạt chức năng này."
+    },
+    "forget_password": {
+        "forget_password":"Quên mật khẩu",
+        "notification": "Vui lòng nhập địa chỉ email bạn đã đăng ký để đặt lại mật khẩu",
+        "email": "Email",
+        "submit_email": "Nhập địa chỉ email",
+        "send": "Gửi",
+        "notice_title": "Thông báo",
+        "notice_content": "Vui lòng kiểm tra email để đặt lại mật khẩu.",
+        "error_required": "Không được bỏ trống!",
+        "error_email": "Địa chỉ email không tồn tại"
+    },
+    "login_certification": {
+        "login": "Đăng nhập",
+        "notification_app": "Vui lòng nhập mã xác thực được gửi đến thiết bị của bạn",
+        "notification_sms": "Vui lòng nhập mã OTP được gửi đến số điện thoại *** *** *{{value}}",
+        "notice_title": "Thông báo",
+        "notice_content": "Bạn đã nhập mã xác thực không hợp lệ quá nhiều lần. Vui lòng thử lại sau một vài phút hoặc sử dụng phương thức xác thực khác.",
+        "error_required": "Không được bỏ trống!",
+        "error_otp": "Mã OTP không đúng, vui lòng nhập lại! (còn {{value}} lần)",
+        "note_otp": "Không nhận được OTP? ",
+        "send_again": "Gửi lại ngay", 
+        "send_again_disable": "Gửi lại ngay ({{value}}s)",
+        "use_other_method": "Sử dụng phương thức xác thực khác?",
+        "confirm": "Xác Nhận"
+    },
+    "control_cabinet": {
+        "power": "Công suất",
+        "light_on": "Bật đèn",
+        "light_off": "Tắt đèn",
+        "power_on": "Bật đã chọn",
+        "power_off": "Tắt đã chọn",
+        "light": "Đèn",
+        "cabinet": "Tủ điện",
+        "open_map": "Bản đồ",
+        "view_detail": "Xem chi tiết",
+        "select_all": "Chọn tất cả",
+        "history": "Lịch sử",
+        "lighting_group": "Tuyến chiếu sáng",
+        "light_station": "Trạm đèn",
+        "lamppost": "Cột đèn",
+        "light_name": "Tên đèn",
+        "select_lighting_group": "Chọn tuyến chiếu sáng",
+        "select_light_station": "Nhập tên trạm đèn",
+        "select_lamppost": "Nhập tên cột đèn",
+        "select_light_name": "Nhập tên đèn",
+        "select_connect_status": "Chọn tình trạng kết nối",
+        "action_status": "Trạng thái hoạt động",
+        "work_status": "Tình trạng hoạt động",
+        "turn_status": "Trạng thái bật/tắt",
+        "connect_status": "Tình trạng kết nối",
+        "wattage": "Công suất cài đặt",
+        "wattage_value": "{{value}}%",
+        "update_wattage_title": "Chỉnh công suất",
+        "update_wattage": "Cài đặt công suất",
+        "turn_light": "Bật đèn"
+    },
+    "dasboard": {
+        "title": "Dasboard"
+    },
+    "history":{
+        "title":"Lịch sử",
+        "lcu_update_light_level":"Cập nhật mức độ ánh sáng LCu: ",
+        "lcu_update_status":"Cập nhật trạng thái LCu: "
+    },
+    "user_information": {
+        "logout": "Đăng xuất"
+    },
+    "map": {
+        "title": "Bản đồ",
+        "lighting_line": "Tuyến chiếu sáng",
+        "light_station_name": "Trạm đèn",
+        "lamp_post": "Cột đèn",
+        "routing": "Chỉ đường"
+    }
+}

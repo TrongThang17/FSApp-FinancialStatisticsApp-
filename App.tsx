@@ -1,11 +1,13 @@
-import * as React from "react";
-import { View } from "react-native";
-import AppNavigation from "./components/Navigation/AppNavigation";
+import * as React from 'react';
+import {AppNavigator} from '@src/navigation/appNavigator';
+import {ReduxProvider} from './src/redux';
 
 const App = () => {
   return (
-      <AppNavigation />
-  )
-}
+    <ReduxProvider>
+      <AppNavigator />
+    </ReduxProvider>
+  );
+};
 
 export default App;
