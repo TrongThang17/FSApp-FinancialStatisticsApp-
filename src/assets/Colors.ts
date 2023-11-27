@@ -7,5 +7,9 @@ export default {
   redOrange: '#FF3B30',
   white: '#ffffff',
   greyPlatinum: '#9B9A99',
-  redCinnabar: '#E75437',
+  redCinnabar: '#E84545',
+  transparent: 'transparent',
+  whiteShade: '#EFEFF1',
+  whiteSmoke: '#ECECEC',
+  GrayGlacier: '#C7C6C5',
 };
